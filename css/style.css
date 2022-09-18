@@ -1,0 +1,190 @@
+* {
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 820px;
+  padding: 26px 77px;
+  background: url("../img/bg1.jpg") center center/cover no-repeat;
+}
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .nav .main_link {
+  margin-top: 7px;
+  font-family: "Larsseit";
+  font-size: 24px;
+  color: #62d0df;
+}
+.header .nav .menu {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .nav .menu .menu_item {
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.header .nav .menu .menu_item a {
+  font-family: "Larsseit";
+  font-size: 14px;
+  line-height: 16px;
+  color: #22356f;
+}
+.header .nav .menu .menu_item::after {
+  content: "";
+  display: block;
+  margin-top: 14px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  width: 0%;
+  height: 1px;
+  background-color: #22356f;
+}
+.header .nav .menu .menu_item:hover::after {
+  content: "";
+  display: block;
+  margin-top: 14px;
+  width: 100%;
+  height: 1px;
+  background-color: #22356f;
+}
+.header .nav .nav_btn {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background: #62d0df;
+  border-radius: 50px;
+  font-family: "Larsseit";
+  font-size: 14px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+.header .nav .nav_btn:hover {
+  background: none;
+  color: #62d0df;
+}
+.header .main_link {
+  display: block;
+  margin-top: 180px;
+  font-family: "Larsseit";
+  font-size: 24px;
+  color: #62d0df;
+}
+.header .header_text {
+  margin-top: 227px;
+  font-family: "Larsseit";
+  font-size: 24px;
+  line-height: 42px;
+  max-width: 469px;
+  color: #22356f;
+}
+.header .header_btn {
+  width: 150px;
+  height: 50px;
+  margin-top: 63px;
+  border: none;
+  background: #f9b640;
+  font-family: "Larsseit";
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  color: #ffffff;
+}
+.header .header_btn:hover {
+  background: none;
+  color: #f9b640;
+}
+
+.why {
+  padding: 150px 0 0 178px;
+  min-height: 540px;
+  background: url(../img/woman.jpg) right no-repeat;
+  background-color: #62d0df;
+}
+.why h2 {
+  font-family: "Larsseit";
+  font-size: 36px;
+  color: white;
+}
+.why .why_text {
+  font-family: "Larsseit";
+  font-size: 16px;
+  width: 555px;
+  margin-top: 80px;
+  line-height: 35px;
+  width: 555px;
+  color: #ffffff;
+}
+.why .why_text span {
+  font-size: 24px;
+}
+
+.about {
+  min-height: 480px;
+}
+.about .about_wrapper {
+  padding: 147px 424px 0 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about .about_wrapper .about_link {
+  margin-left: 106px;
+}
+.about .about_wrapper .about_link a {
+  font-family: "Larsseit";
+  font-size: 16px;
+  color: #22356f;
+}
+.about .about_wrapper .about_text {
+  width: 592px;
+  font-family: "Larsseit";
+  font-size: 24px;
+  line-height: 34px;
+  color: #22356f;
+}
+.about .link_help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+.about .link_help a {
+  font-family: "Larsseit";
+  font-size: 16px;
+  color: rgba(34, 53, 111, 0.5);
+}
