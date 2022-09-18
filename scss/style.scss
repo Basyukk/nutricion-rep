@@ -146,17 +146,18 @@
 }
 
 .about {
+    padding: 147px 0 0 0;
     // position: relative;
-    min-height: 480px;
+    min-height: 370px;
 
     .about_wrapper {
-        padding: 147px 424px 0 106px;
-
+        margin-left: 106px;
+        max-width: 890px;
         display: flex;
         justify-content: space-between;
 
         .about_link {
-            margin-left: 106px;
+            // margin-left: 106px;
             a {
                 font-family: "Larsseit";
                 font-size: 16px;
@@ -166,7 +167,7 @@
         }
 
         .about_text {
-            width: 592px;
+            max-width: 592px;
             font-family: "Larsseit";
             font-size: 24px;
             line-height: 34px;
@@ -174,17 +175,139 @@
             color: #22356f;
         }
     }
-
+}
+.help {
+    min-height: 600px;
+    padding: 46px 0 122px 0;
     .link_help {
         display: flex;
         justify-content: center;
-        margin-top: 70px;
+        // margin-top: 70px;
 
         a {
             font-family: "Larsseit";
             font-size: 16px;
 
             color: rgba(34, 53, 111, 0.5);
+        }
+    }
+
+    .help_wrapper {
+        display: flex;
+        margin-top: 24px;
+        // flex-wrap: wrap;
+
+        .squere {
+            width: 360px;
+            height: 360px;
+            .divider {
+                margin: 0 auto;
+                margin-top: 71px;
+                height: 1px;
+                width: 255px;
+                background-color: #fff;
+            }
+
+            .help_li {
+                margin-top: 31px;
+                margin-left: 54px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .help_li_title {
+                    font-family: "Larsseit";
+                    font-size: 32px;
+                    text-align: center;
+                    color: #ffffff;
+                }
+
+                .help_li_round {
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+
+                    background: #e9b730;
+                }
+            }
+        }
+
+        .squere_1 {
+            background-color: #ffe2de;
+        }
+        .squere_2 {
+            background-color: #c4e769;
+        }
+        .squere_3 {
+            background-color: #62d0df;
+        }
+
+        .squere_4 {
+            background-color: #0052c1;
+        }
+    }
+}
+
+.color {
+    min-height: 960px;
+
+    .color_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .squere {
+            width: 480px;
+            height: 480px;
+        }
+        .squere_1 {
+            background-color: #22356f;
+        }
+        .squere_2 {
+            background-color: #0052c1;
+        }
+        .squere_3 {
+            background: url("../img/yogurt.jpg") center center/cover no-repeat;
+        }
+
+        .squere_4 {
+            background-color: #62d0df;
+        }
+        .squere_5 {
+            background-color: #dee1ff;
+        }
+
+        .squere_6 {
+            background-color: #8f00ff;
+        }
+
+        .divider {
+            margin: 0 auto;
+            margin-top: 95px;
+            height: 1px;
+            width: 340px;
+            background-color: #fff;
+        }
+
+        .help_li {
+            margin-top: 31px;
+            margin-left: 72px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .help_li_title {
+                font-family: "Larsseit";
+                font-size: 32px;
+                text-align: center;
+                color: #ffffff;
+            }
+
+            .help_li_round {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                margin-right: 20px;
+
+                background: #e9b730;
+            }
         }
     }
 }
