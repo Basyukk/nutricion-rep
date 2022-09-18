@@ -196,6 +196,8 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .help .help_wrapper .squere {
   width: 360px;
@@ -311,4 +313,171 @@
   border-radius: 50%;
   margin-right: 20px;
   background: #e9b730;
+}
+
+.inform {
+  min-height: 544px;
+}
+.inform .inform_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.inform .inform_wrapper .inform_block {
+  padding: 85px 103px 50px;
+  width: 480px;
+  height: 262px;
+}
+.inform .inform_wrapper .inform_block .inform_block_title {
+  font-family: "Larsseit";
+  font-size: 28px;
+  color: #22356f;
+}
+.inform .inform_wrapper .inform_block .inform_block_descr {
+  margin-top: 32px;
+  font-family: "Larsseit";
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.know {
+  min-height: 800px;
+}
+.know .know_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.know .know_wrapper .know_inform_wrapper {
+  padding: 103px 0 57px 106px;
+}
+.know .know_wrapper .know_inform_wrapper .know_title {
+  font-family: "Larsseit";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #22356f;
+}
+.know .know_wrapper .know_inform_wrapper .know_descr {
+  margin-top: 230px;
+  font-family: "Larsseit";
+  font-size: 36px;
+  line-height: 53px;
+  max-width: 676px;
+  color: #22356f;
+}
+.know .know_wrapper .know_inform_wrapper .know_descr span {
+  color: rgb(108, 211, 225);
+}
+.know .know_wrapper .know_inform_wrapper .know_link {
+  margin: 0 auto;
+  margin-top: 170px;
+  font-family: "Larsseit";
+  font-size: 16px;
+  line-height: 23px;
+  color: #fab63e;
+}
+.contact {
+  min-height: 800px;
+  background-color: #22356f;
+}
+.contact .contact_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .contact_wrapper .contact_inform_wrapper {
+  padding: 103px 0 50px 180px;
+}
+.contact .contact_wrapper .contact_inform_wrapper .contact_main_link a {
+  font-family: "Larsseit";
+  font-size: 16px;
+  color: #ffffff;
+}
+.contact .contact_wrapper .contact_inform_wrapper .contact_title {
+  font-family: "Larsseit";
+  font-size: 64px;
+  margin-top: 240px;
+  color: #ffffff;
+}
+.contact .contact_wrapper .contact_inform_wrapper .contact_descr {
+  margin-top: 75px;
+  max-width: 535px;
+  font-family: "Larsseit";
+  font-size: 36px;
+  line-height: 53px;
+  color: #ffffff;
+}
+.contact .contact_wrapper .contact_inform_wrapper .contact_link {
+  margin-top: 91px;
+}
+.contact .contact_wrapper .contact_inform_wrapper .contact_link a {
+  font-family: "Larsseit";
+  font-size: 16px;
+  color: #62d0df;
+}
+
+.ending {
+  min-height: 380px;
+}
+.ending .ending_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ending .ending_wrapper .ending_info_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0 74px 68px;
+}
+.ending .ending_wrapper .ending_info_wrapper .ending_block {
+  width: 33%;
+}
+.ending .ending_wrapper .ending_info_wrapper .ending_block .ending_block_title {
+  font-family: "Larsseit";
+  font-size: 14px;
+  color: #22356f;
+}
+.ending .ending_wrapper .ending_info_wrapper .ending_block .ending_block_descr {
+  font-family: "Larsseit";
+  margin-top: 59px;
+  max-width: 170px;
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(34, 53, 111, 0.5);
+}
+.ending .ending_wrapper .ending_info_wrapper .ending_block .ending_block_descr .ending_phone {
+  display: block;
+  margin-top: 38px;
+  font-family: "Larsseit";
+  font-size: 14px;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.footer {
+  padding: 34px 0 32px 179px;
+  min-height: 80px;
+  background-color: #62d0df;
+}
+.footer .footer_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer_wrapper .footer_text {
+  font-family: "Larsseit";
+  font-size: 18px;
+  margin-left: 8px;
+  color: #ffffff;
 }

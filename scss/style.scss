@@ -195,7 +195,7 @@
     .help_wrapper {
         display: flex;
         margin-top: 24px;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
 
         .squere {
             width: 360px;
@@ -308,6 +308,190 @@
 
                 background: #e9b730;
             }
+        }
+    }
+}
+.inform {
+    min-height: 544px;
+    .inform_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .inform_block {
+            padding: 85px 103px 50px;
+            width: 480px;
+            height: 262px;
+
+            .inform_block_title {
+                font-family: "Larsseit";
+                font-size: 28px;
+
+                color: #22356f;
+            }
+
+            .inform_block_descr {
+                margin-top: 32px;
+                font-family: "Larsseit";
+                font-size: 16px;
+                line-height: 25px;
+
+                color: rgba(34, 53, 111, 0.5);
+            }
+        }
+    }
+}
+
+.know {
+    min-height: 800px;
+    .know_wrapper {
+        display: flex;
+
+        .know_inform_wrapper {
+            padding: 103px 0 57px 106px;
+
+            .know_title {
+                font-family: "Larsseit";
+                font-size: 16px;
+                text-transform: uppercase;
+
+                color: #22356f;
+            }
+
+            .know_descr {
+                margin-top: 230px;
+                font-family: "Larsseit";
+                font-size: 36px;
+                line-height: 53px;
+                max-width: 676px;
+
+                color: #22356f;
+                span {
+                    color: rgba(108, 211, 225, 1);
+                }
+            }
+
+            .know_link {
+                margin: 0 auto;
+                margin-top: 170px;
+                font-family: "Larsseit";
+                font-size: 16px;
+                line-height: 23px;
+
+                color: #fab63e;
+                a {
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    min-height: 800px;
+    background-color: #22356f;
+    .contact_wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .contact_inform_wrapper {
+            padding: 103px 0 50px 180px;
+            .contact_main_link {
+                a {
+                    font-family: "Larsseit";
+                    font-size: 16px;
+
+                    color: #ffffff;
+                }
+            }
+
+            .contact_title {
+                font-family: "Larsseit";
+                font-size: 64px;
+                margin-top: 240px;
+                color: #ffffff;
+            }
+
+            .contact_descr {
+                margin-top: 75px;
+                max-width: 535px;
+                font-family: "Larsseit";
+                font-size: 36px;
+                line-height: 53px;
+
+                color: #ffffff;
+            }
+
+            .contact_link {
+                margin-top: 91px;
+                a {
+                    font-family: "Larsseit";
+                    font-size: 16px;
+
+                    color: #62d0df;
+                }
+            }
+        }
+    }
+}
+.ending {
+    min-height: 380px;
+    .ending_wrapper {
+        display: flex;
+
+        .ending_info_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 0 74px 68px;
+
+            .ending_block {
+                width: 33%;
+
+                .ending_block_title {
+                    font-family: "Larsseit";
+                    font-size: 14px;
+
+                    color: #22356f;
+                }
+
+                .ending_block_descr {
+                    font-family: "Larsseit";
+                    margin-top: 59px;
+                    max-width: 170px;
+
+                    font-size: 14px;
+                    line-height: 23px;
+
+                    color: rgba(34, 53, 111, 0.5);
+
+                    .ending_phone {
+                        display: block;
+                        margin-top: 38px;
+                        font-family: "Larsseit";
+                        font-size: 14px;
+
+                        color: rgba(34, 53, 111, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    padding: 34px 0 32px 179px;
+    min-height: 80px;
+
+    background-color: #62d0df;
+
+    .footer_wrapper {
+        width: 100%;
+        display: flex;
+
+        .footer_text {
+            font-family: "Larsseit";
+            font-size: 18px;
+            margin-left: 8px;
+
+            color: #ffffff;
         }
     }
 }
